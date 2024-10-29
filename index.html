@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Book manage</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td>Tên sách</td>
+                    <td>Giá</td>
+                    <td>Tác giả</td>
+                    <td>
+                        Hành động
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cuốn sách 01</td>
+                    <td>120000</td>
+                    <td>Lê Văn A</td>
+                    <td>
+                        <button class="button button--edit">Sửa</button>
+                        <button class="button button--delete">Xóa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cuốn sách 02</td>
+                    <td>125000</td>
+                    <td>Lê Văn B</td>
+                    <td>
+                        <button class="button button--edit">Sửa</button>
+                        <button class="button button--delete">Xóa</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script
+            src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>

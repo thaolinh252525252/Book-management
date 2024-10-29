@@ -1,0 +1,121 @@
+/*
+Tạo thông báo
+*/
+.list-alert {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    z-index: 99;
+}
+
+.alert {
+    display: flex;
+    gap: 20px;
+    background-color: #ddd;
+    padding: 12px 20px;
+    color: white;
+    font-size: 18px;
+    justify-content: space-between;
+    width: 200px;
+    border-radius: 8px;
+
+}
+
+.alert--success {
+    background-color: #63C800;
+}
+
+.alert--error {
+    background-color: #C91E00;
+}
+
+.alert-close {
+    cursor: pointer;
+    color: white;
+}
+
+.alert-close:hover {
+    color: #C91E00;
+}
+
+.alert--hidden {
+    display: none;
+}
+
+table tr td {
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+table thead tr td {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+table tbody tr td {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+table tbody tr td:last-child {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.button--edit {
+    background-color: rgb(92, 98, 203);
+}
+
+.button--delete {
+    background-color: rgb(220, 44, 44);
+}
+
+/*create*/
+h1 {
+    color: rgb(139, 226, 197);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#form-create {
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#form-create input {
+    padding: 10px 20px;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#form-create button {
+    background-color: rgb(80, 255, 255);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+}
+
+#form-create button:hover {
+    background-color: rgb(27, 152, 152);
+
+}
